@@ -5,6 +5,7 @@ __pycache__/
 
 .DS_Store
 .idea/
+credenciales.json
 
 # C extensions
 *.so
