@@ -1,24 +1,18 @@
 pyspark==3.5.0
 numpy
 kagglehub
-scikit-learn
+
 # Para guardar resultados
 openpyxl==3.1.2
-
 # Para exportar métricas a CSV sin problemas
 setuptools>=67.0.0
-
 #para exportar a Google Sheets
 gspread
 oauth2client
 # Para guardar resultados
-openpyxl==3.1.2
 
-# Para exportar métricas a CSV sin problemas
-setuptools>=67.0.0
 
-#para exportar a Google Sheets
-gspread
 
-oauth2client
+
+
 

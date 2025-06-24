@@ -1,9 +1,11 @@
+import csv
+import os
+
 class resultadosFinalesExportacion:
     def __init__(self,metrics):
         self.metrics = metrics
     def save_metrics_to_csv(self, file_path="./resultados_metricas.csv"):
-        import csv
-        import os
+
         print("ya se ha guardado el metrics")
         # Verificamos si hay métricas
         if not self.metrics:
